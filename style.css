@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 2.5rem;
+}
+
+.navBar {
+    background: black;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav ul a {
+    text-decoration: none;
+}
+
+nav h1 {
+    text-align: center;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+
+#logo {
+    width: 70px;
+    ff position: relative;
+}
+
+.landing {
+    background-color: black;
+}
+
+#myVideo {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 70%;
+}
