@@ -21,7 +21,7 @@ body {
   opacity: 80%;
   color: white;
   top: 0;
-  min-height: 9vh;
+  min-height: 11vh;
   width: 100%;
 }
 
@@ -30,7 +30,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   display: flex;
   justify-content: space-evenly;
-  margin-top: -7vh;
+  margin-top: -8vh;
   z-index: 2;
 }
 
