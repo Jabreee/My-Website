@@ -16,6 +16,7 @@ body {
 .navBar {
   position: fixed;
   overflow: hidden;
+  z-index: 3;
   min-height: 5vh;
   background: black;
   padding-bottom: 3.5rem;
@@ -60,15 +61,26 @@ nav h1 {
   margin-bottom: 3rem;
 }
 
-.intro-text h1 {
+.intro-text {
   color: white;
   font-family: 'Open Sans', sans-serif;
   position: absolute;
-  font-size: 10rem;
-  right: 20%;
-  opacity: 70%;
+  opacity: 60%;
+  right: 10%;
   bottom: 50%;
-  flex-direction: column;
+  margin: auto;
+}
+
+.intro-text h1 {
+  font-size: 8rem;
+  text-align: center;
+  font-size-adjust: inherit;
+}
+
+.intro-text h2 {
+  font-size: 4rem;
+  text-align: center;
+  opacity: 60%;
 }
 
 #myVideo {
@@ -79,4 +91,16 @@ nav h1 {
   min-height: 100%;
   opacity: 70%;
   z-index: -1;
+}
+
+@media screen and (max-width: 650px) {
+  .intro-text h1 {
+    font-size: 4rem;
+    text-align: center;
+  }
+  .intro-text h2 {
+    font-size: 2rem;
+    text-align: center;
+    opacity: 60%;
+  }
 }
