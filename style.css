@@ -1,76 +1,82 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 body {
-    font-size: 2.5rem;
-    background-color: black;
+  font-size: 2.5rem;
+  background-color: black;
 }
 
 .navBar {
-    position: relative;
-    overflow: hidden;
-    min-height: 5vh;
-    background: black;
-    margin-bottom: 2rem;
-    color: white;
-    top: 0;
-    width: 100%;
+  position: fixed;
+  overflow: hidden;
+  min-height: 5vh;
+  background: black;
+  padding-bottom: 3.5rem;
+  color: white;
+  top: 0%;
+  width: 100%;
 }
 
 .align-list {
-    list-style-type: none;
-    font-family: 'Open Sans', sans-serif;
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: -7rem;
-    padding-bottom: 1rem;
-    z-index: 2;
+  list-style-type: none;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: -9rem;
+  padding-bottom: 1rem;
+  z-index: 2;
 }
 
 nav ul a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
 }
 
 nav ul a:hover {
-    color: rgb(2, 77, 138);
+  color: rgb(2, 77, 138);
 }
 
 nav h1 {
-    text-align: center;
+  text-align: center;
 }
 
 /* Style the video: 100% width and height to cover the entire window */
 
 #logo {
-    z-index: 3;
-    display: flex;
-    margin-top: 1vh;
-    margin-left: auto;
-    margin-right: auto;
-    width: 3%;
-    margin-bottom: 3rem;
+  display: flex;
+  margin-top: 1.5vh;
+  margin-left: auto;
+  margin-right: auto;
+  width: 3%;
+  margin-bottom: 3rem;
 }
 
-.landing h1 {
-    color: white;
-    display: flex;
-    flex-direction: column;
+.intro-text h1 {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  position: absolute;
+  font-size: 10rem;
+  right: 20%;
+  opacity: 70%;
+  bottom: 50%;
+  flex-direction: column;
 }
 
 #myVideo {
-    position: relative;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    opacity: 70%;
-    z-index: -1;
+  position: relative;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  opacity: 70%;
+  z-index: -1;
 }
