@@ -71,12 +71,14 @@ nav h1 {
 }
 
 .intro-text h1 {
+  min-width: 40vw;
   font-size: 8rem;
   text-align: center;
   font-size-adjust: inherit;
 }
 
 .intro-text h2 {
+  min-width: 40vw;
   font-size: 4rem;
   text-align: center;
   opacity: 60%;
@@ -93,15 +95,15 @@ nav h1 {
 }
 
 .icons {
-  position: absolute;
+  position: relative;
   opacity: 80%;
-  right: 45vh;
-  bottom: 40%;
-  width: 40rem;
+  padding-top: 1rem;
+  margin-left: 20%;
+  margin-right: 20%;
   display: flex;
   flex-wrap: wrap;
+  align-content: center;
   justify-content: space-around;
-  align-items: center;
 }
 
 #linkedin {
@@ -147,6 +149,7 @@ nav h1 {
 }
 
 /* Projects Section */
+
 .projects {
   height: 100vh;
   background: white;
