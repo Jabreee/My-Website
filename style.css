@@ -18,7 +18,7 @@ body {
   overflow: hidden;
   z-index: 1;
   background: black;
-  opacity: 90%;
+  opacity: 80%;
   color: white;
   top: 0;
   min-height: 9vh;
@@ -37,6 +37,7 @@ body {
 nav ul a {
   text-decoration: none;
   color: white;
+  opacity: 100%;
   display: flex;
   align-items: center;
 }
@@ -94,7 +95,7 @@ nav h1 {
 
 .icons {
   position: absolute;
-  opacity: 70%;
+  opacity: 80%;
   right: 21%;
   bottom: 40%;
   width: 40rem;
@@ -144,4 +145,10 @@ nav h1 {
     text-align: center;
     opacity: 60%;
   }
+}
+
+/* Projects Section */
+.projects {
+  height: 100vh;
+  background: white;
 }
