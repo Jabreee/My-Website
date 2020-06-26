@@ -16,12 +16,12 @@ body {
 .navBar {
   position: fixed;
   overflow: hidden;
-  z-index: 3;
-  min-height: 5vh;
+  z-index: 1;
   background: black;
-  padding-bottom: 3.5rem;
+  opacity: 90%;
   color: white;
-  top: 0%;
+  top: 0;
+  min-height: 9vh;
   width: 100%;
 }
 
@@ -30,8 +30,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   display: flex;
   justify-content: space-evenly;
-  margin-top: -9rem;
-  padding-bottom: 1rem;
+  margin-top: -7vh;
   z-index: 2;
 }
 
@@ -57,7 +56,7 @@ nav h1 {
   margin-top: 1.5vh;
   margin-left: auto;
   margin-right: auto;
-  width: 3%;
+  width: 78px;
   margin-bottom: 3rem;
 }
 
@@ -116,7 +115,7 @@ nav h1 {
 
 #insta {
   width: 70px;
-  transition: width 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 #insta:hover {
@@ -124,12 +123,13 @@ nav h1 {
 }
 
 #youtube {
-  width: 100px;
+  width: 80px;
   transition: width 0.5s ease-in-out;
 }
 
 #youtube:hover {
-  width: 130px;
+  width: 110px;
+  position: relative;
 }
 
 /* Mobile Responsiveness */
