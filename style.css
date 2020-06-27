@@ -160,7 +160,7 @@ nav h1 {
 
 /* Projects Section */
 
-.projects {
+#projects {
   height: 100vh;
   background: white;
 }
