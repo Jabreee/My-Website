@@ -171,18 +171,29 @@ nav h1 {
 }
 
 #youtube {
-  width: 80px;
+  width: 70px;
   transition: width 0.5s ease-in-out;
 }
 
 #youtube:hover {
-  width: 110px;
+  width: 100px;
   position: relative;
 }
 
 /* Mobile Responsiveness */
 
 @media screen and (max-width: 650px) {
+  ul {
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+  li {
+    font-size: 1.7rem;
+  }
+  #logo {
+    padding-top: 1.5rem;
+    width: 25%;
+  }
   .intro-text h1 {
     font-size: 4rem;
     text-align: center;
@@ -191,6 +202,28 @@ nav h1 {
     font-size: 2rem;
     text-align: center;
     opacity: 60%;
+  }
+  #linkedin {
+    width: 50px;
+    transition: width 0.5s ease-in-out;
+  }
+  #linkedin:hover {
+    width: 70px;
+  }
+  #insta {
+    width: 50px;
+    transition: all 0.5s ease-in-out;
+  }
+  #insta:hover {
+    width: 70px;
+  }
+  #youtube {
+    width: 50px;
+    transition: width 0.5s ease-in-out;
+  }
+  #youtube:hover {
+    width: 70px;
+    position: relative;
   }
 }
 
