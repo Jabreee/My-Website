@@ -191,6 +191,22 @@ nav h1 {
 /* Mobile Responsiveness */
 
 @media screen and (max-width: 650px) {
+  #myVideo {
+    position: fixed;
+    /*From absolute*/
+    top: 50%;
+    left: 50%;
+    width: 1450px;
+    height: 850px;
+    min-width: 100%;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
   ul {
     margin-left: 8%;
     margin-right: 8%;
