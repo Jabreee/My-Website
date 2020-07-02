@@ -197,7 +197,7 @@ nav h1 {
 
 /* Mobile Responsiveness */
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 900px) {
   #myVideo {
     position: fixed;
     /*From absolute*/
@@ -255,6 +255,10 @@ nav h1 {
   #youtube:hover {
     width: 70px;
     position: relative;
+  }
+  iframe {
+    height: 30vh;
+    width: 80vw;
   }
 }
 
