@@ -8,6 +8,21 @@
   background: orange;
 }
 
+*::-webkit-media-controls-panel {
+  display: none !important;
+  -webkit-appearance: none;
+}
+
+*::--webkit-media-controls-play-button {
+  display: none !important;
+  -webkit-appearance: none;
+}
+
+*::-webkit-media-controls-start-playback-button {
+  display: none !important;
+  -webkit-appearance: none;
+}
+
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
@@ -199,7 +214,6 @@ nav h1 {
 
 @media screen and (max-width: 900px) {
   #myVideo {
-    position: fixed;
     /*From absolute*/
     top: 50%;
     left: 50%;
