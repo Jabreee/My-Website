@@ -215,6 +215,7 @@ nav h1 {
 @media screen and (max-width: 900px) {
   #myVideo {
     /*From absolute*/
+    position: absolute !important;
     top: 50%;
     left: 50%;
     width: 1450px;
